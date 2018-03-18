@@ -24,13 +24,13 @@ public class ClasePuntaje {
             }
         } else {
             if (capacidad<=1200) {
-                puntaje+=3;
+                puntaje+=1;
             } else if(capacidad>1200 && capacidad <=2400) {
-                puntaje+=4;
+                puntaje+=2;
             }else if (capacidad>2400 && capacidad<=3100) {
-                puntaje+=5;
+                puntaje+=3;
             }else if (capacidad>3100) {
-                puntaje+=6;
+                puntaje+=4;
             }
         }
     }
