@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author mauca
+ * @author  Mauricio Calderon && Melanie Estrada
  */
 public class Guia2 extends javax.swing.JFrame {
 

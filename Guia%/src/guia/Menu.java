@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 package guia;
+/**
+ *
+ * @author  Mauricio Calderon && Melanie Estrada
+ */
 
 public class Menu extends javax.swing.JFrame {
 

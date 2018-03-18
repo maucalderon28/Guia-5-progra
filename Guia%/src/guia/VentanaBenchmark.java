@@ -4,6 +4,11 @@ package guia;
 import java.awt.event.KeyEvent;
 import javax.swing.JOptionPane;
 
+/**
+ *
+ * @author  Mauricio Calderon && Melanie Estrada
+ */
+
 public class VentanaBenchmark extends javax.swing.JFrame {
 
     /**

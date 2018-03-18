@@ -3,7 +3,7 @@ package guia;
 
 /**
  *
- * @author mauca
+ * @author Mauricio Calderon && Melanie Estrada
  */
 public class ClasePuntaje {
     private int puntaje;
