@@ -18,7 +18,7 @@ public class Guia2 extends javax.swing.JFrame {
      */
     public Guia2() {
         initComponents();
-        this.setSize(475, 250);
+        this.setSize(460, 221);
         this.setLocationRelativeTo(null);
     }
 

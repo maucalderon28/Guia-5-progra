@@ -5,10 +5,6 @@
  */
 package guia;
 
-/**
- *
- * @author mauca
- */
 public class Menu extends javax.swing.JFrame {
 
     /**
@@ -47,6 +43,11 @@ public class Menu extends javax.swing.JFrame {
         jLabelTitulo.setBounds(160, 20, 59, 23);
 
         jButton1.setText("App Guia 1");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1);
         jButton1.setBounds(125, 72, 120, 23);
 
@@ -99,6 +100,12 @@ public class Menu extends javax.swing.JFrame {
         this.setVisible(false);
         letras.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        Guia1 nueva =new Guia1();
+        this.setVisible(false);
+        nueva.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
